@@ -1,2 +1,0 @@
-# JSRunner
-for noodlewrecker.xyz
