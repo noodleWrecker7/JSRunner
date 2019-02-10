@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../css/pages.css">
     <link rel="stylesheet" href="../../css/fontawesome.css">
     <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
+    <script src="../../hidden/render.js"></script>
     <!--Used from https://fontawesome.com under license https://fontawesome.com/license-->
     <title>Games - Platforms</title>
 </head>
@@ -18,10 +19,10 @@
             <a href="../" class="nav-link nav-button">Projects</a>
             <a href="https://paypal.me/noodlewrecker" class="nav-link nav-button">Donate</a>
         </div>
-        <?php
-        $socialBarResponse = file_get_contents("../../../hidden/social-bar.html");
-        echo $socialBarResponse;
-        ?>
+        <div id="socialBar">
+            <script>insertSocialBar("../../hidden/social-bar.html");</script>
+
+        </div>
     </div>
 
     <h1 class="title">
@@ -41,4 +42,7 @@
     <script src="platforms.js"></script>
 </div>
 </body>
+<div class="foot">
+    <p class="credit">Designed by Adam Hodgkinson</p>
+</div>
 </html>
