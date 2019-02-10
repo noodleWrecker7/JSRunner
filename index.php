@@ -41,4 +41,7 @@
     <script src="platforms.js"></script>
 </div>
 </body>
+<div class="foot">
+    <p class="credit">Designed by Adam Hodgkinson</p>
+</div>
 </html>
